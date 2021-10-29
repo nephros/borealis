@@ -1,0 +1,38 @@
+Name: borealis-sound-theme
+Summary: Boralis Sound Theme by Ivica Ico Bukvic
+Version: 0.9a
+Release: 1
+Group: Amusements
+License: Artistic
+Sources:
+        - http://ico.bukvic.net/Linux/Borealis_soundtheme/Borealis_sound_theme_ogg-0.9a.tar.bz2
+        - boralis-icon.png
+Icon: boralis-icon.png
+URL: http://ico.bukvic.net/main/borealis/
+Description: |
+        Popular KDE sound theme Borealis by Ivica Ico Bukvic packaged for Sailfish OS.
+
+        Ivica writes:
+
+        Back in 2004 I composed a sound theme for the KDE desktop environment
+        and posted it on now defunct kde-look.org. Borealis soon became the top
+        rated theme and to this day remains one of the top themes with the
+        largest (~300K) number of downloads. Over the years, components of the
+        theme were licensed for a number of projects including Gnome and Ubuntu
+        Studio. In 2008, the theme also served as the foundation for a
+        commission from the now defunct SUN Microsystems Inc. where I was
+        tasked to design a collection of sound themes for the (now also
+        defunct) Open Solaris project.
+Configure: none
+BuildArch: noarch
+RequiresPost: 
+    - systemd
+RequiresPostUn:
+    - systemd
+Files:
+    - '%doc README'
+    - '%dir %{_datadir}/sounds/borealis'
+    - '%{_datadir}/sounds/borealis/index.theme'
+    - '%{_datadir}/sounds/borealis/stereo.index'
+    - '%dir %{_datadir}/sounds/borealis/stereo'
+    - '%{_datadir}/sounds/borealis/stereo/*.ogg'

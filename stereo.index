@@ -1,0 +1,31 @@
+{
+    "translationCatalog" : "borealis-sound-theme",
+    "files" : [
+        { "displayName" : "Borealis Click 1"    , "fileName" : "Click1.ogg" },
+        { "displayName" : "Borealis Click 2"    , "fileName" : "Error1.ogg" },
+        { "displayName" : "Borealis Click 3"    , "fileName" : "Error2.ogg" },
+        { "displayName" : "Borealis Message 1"  , "fileName" : "Exit1_1.ogg" },
+        { "displayName" : "Borealis Message 2"  , "fileName" : "Exit1_2.ogg" },
+        { "displayName" : "Borealis Success"    , "fileName" : "K3b_success.ogg" },
+        { "displayName" : "Borealis Mail"       , "fileName" : "Kmail.ogg" },
+        { "displayName" : "Borealis Knock"      , "fileName" : "Knock.ogg" },
+        { "displayName" : "Borealis Notify"     , "fileName" : "Kopete_notify.ogg" },
+        { "displayName" : "Borealis Offline"    , "fileName" : "Kopete_offline.ogg" },
+        { "displayName" : "Borealis Send"       , "fileName" : "Kopete_send.ogg" },
+        { "displayName" : "Borealis Status"     , "fileName" : "Kopete_status.ogg" },
+        { "displayName" : "Borealis Click 4"    , "fileName" : "Maximize.ogg" },
+        { "displayName" : "Borealis Click 5"    , "fileName" : "Minimize1.ogg" },
+        { "displayName" : "Borealis Click 6"    , "fileName" : "Minimize4.ogg" },
+        { "displayName" : "Borealis Click 7"    , "fileName" : "Popup.ogg" },
+        { "displayName" : "Borealis Bing 1"     , "fileName" : "Question.ogg" },
+        { "displayName" : "Borealis Bing 2"     , "fileName" : "Question_background.ogg" },
+        { "displayName" : "Borealis Click 8"    , "fileName" : "Restore_down.ogg" },
+        { "displayName" : "Borealis Click 9"    , "fileName" : "Restore_up.ogg" },
+        { "displayName" : "Borealis Click 10"   , "fileName" : "Shade_down.ogg" },
+        { "displayName" : "Borealis Click 11"   , "fileName" : "Shade_up.ogg" },
+        { "displayName" : "Borealis Jingle 1"   , "fileName" : "Startup1_1.ogg" },
+        { "displayName" : "Borealis Jingle 2"   , "fileName" : "Startup1_2.ogg" },
+        { "displayName" : "Borealis Jingle 3"   , "fileName" : "Startup1_3.ogg" },
+        { "displayName" : "Borealis Jingle 4"   , "fileName" : "Startup1_4.ogg" }
+    ]
+}
