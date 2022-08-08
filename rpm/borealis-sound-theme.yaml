@@ -3,7 +3,12 @@ Summary: Boralis Sound Theme by Ivica Ico Bukvic
 Version: 0.9a
 Release: 1
 Group: Amusements
-License: Artistic
+# see the additional restrictions in the README.
+# TL;DR: use only allowed commercially, if software-OS is available completely under GPL/LGPL
+# This is not the case for Sailfish OS, however, there is at the moment no
+# commercial use of this package and its content as it's a third party package
+# and not used commercially.
+License: Artistic 2.0
 Sources:
         # http://ico.bukvic.net/Linux/Borealis_soundtheme/Borealis_sound_theme_ogg-0.9a.tar.bz2
         - '%{name}-%{version}.tar.gz'

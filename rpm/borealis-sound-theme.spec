@@ -15,7 +15,7 @@ Summary:    Boralis Sound Theme by Ivica Ico Bukvic
 Version:    0.9a
 Release:    1
 Group:      Amusements
-License:    Artistic
+License:    Artistic 2.0
 BuildArch:  noarch
 URL:        http://ico.bukvic.net/main/borealis/
 Source0:    %{name}-%{version}.tar.gz
