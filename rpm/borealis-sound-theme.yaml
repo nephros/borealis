@@ -23,7 +23,13 @@ Description: |
         commission from the now defunct SUN Microsystems Inc. where I was
         tasked to design a collection of sound themes for the (now also
         defunct) Open Solaris project.
+Macros:
+    - 'themename;borealis'
+    - 'themedir;%{_datadir}/sounds/%{themename}'
+    - 'stereodir;%{themedir}/stereo'
+
 Configure: none
+SetupOptions: -q -n %{name}-%{version}
 BuildArch: noarch
 RequiresPost: 
     - systemd
@@ -31,8 +37,9 @@ RequiresPostUn:
     - systemd
 Files:
     - '%doc README'
-    - '%dir %{_datadir}/sounds/borealis'
-    - '%{_datadir}/sounds/borealis/index.theme'
-    - '%{_datadir}/sounds/borealis/stereo.index'
-    - '%dir %{_datadir}/sounds/borealis/stereo'
-    - '%{_datadir}/sounds/borealis/stereo/*.ogg'
+    - '%dir %{themedir}'
+    - '%{themedir}/index.theme'
+    - '%{themedir}/stereo.index'
+    - '%dir %{stereodir}'
+    - '%{stereodir}/*.ogg'
+

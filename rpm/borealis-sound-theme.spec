@@ -7,6 +7,9 @@ Name:       borealis-sound-theme
 
 # >> macros
 # << macros
+%define themename borealis
+%define themedir %{_datadir}/sounds/%{themename}
+%define stereodir %{themedir}/stereo
 
 Summary:    Boralis Sound Theme by Ivica Ico Bukvic
 Version:    0.9a
@@ -75,10 +78,10 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %doc README
-%dir %{_datadir}/sounds/borealis
-%{_datadir}/sounds/borealis/index.theme
-%{_datadir}/sounds/borealis/stereo.index
-%dir %{_datadir}/sounds/borealis/stereo
-%{_datadir}/sounds/borealis/stereo/*.ogg
+%dir %{themedir}
+%{themedir}/index.theme
+%{themedir}/stereo.index
+%dir %{stereodir}
+%{stereodir}/*.ogg
 # >> files
 # << files
