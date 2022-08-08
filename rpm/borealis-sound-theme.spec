@@ -18,7 +18,7 @@ Group:      Amusements
 License:    Artistic
 BuildArch:  noarch
 URL:        http://ico.bukvic.net/main/borealis/
-Source0:    http://ico.bukvic.net/Linux/Borealis_soundtheme/Borealis_sound_theme_ogg-0.9a.tar.bz2
+Source0:    %{name}-%{version}.tar.gz
 Source1:    boralis-icon.png
 Source100:  borealis-sound-theme.yaml
 Requires(post): systemd

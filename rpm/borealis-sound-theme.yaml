@@ -5,7 +5,8 @@ Release: 1
 Group: Amusements
 License: Artistic
 Sources:
-        - http://ico.bukvic.net/Linux/Borealis_soundtheme/Borealis_sound_theme_ogg-0.9a.tar.bz2
+        # http://ico.bukvic.net/Linux/Borealis_soundtheme/Borealis_sound_theme_ogg-0.9a.tar.bz2
+        - '%{name}-%{version}.tar.gz'
         - boralis-icon.png
 Icon: boralis-icon.png
 URL: http://ico.bukvic.net/main/borealis/
