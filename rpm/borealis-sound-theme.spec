@@ -19,7 +19,7 @@ License:    Artistic
 BuildArch:  noarch
 URL:        http://ico.bukvic.net/main/borealis/
 Source0:    %{name}-%{version}.tar.gz
-Source1:    boralis-icon.png
+Source1:    borealis-icon.png
 Source100:  borealis-sound-theme.yaml
 Requires(post): systemd
 Requires(postun): systemd
